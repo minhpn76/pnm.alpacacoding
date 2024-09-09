@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://alpacacoding.github.io", // replace this with your deployed domain
+  website: "https://alpacacoding.netlify.app", // replace this with your deployed domain
   author: "Minh PN",
   profile: "https://satnaing.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
