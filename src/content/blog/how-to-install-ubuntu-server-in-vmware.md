@@ -1,8 +1,8 @@
 ---
 author: Minh PN
 pubDatetime: 2024-09-18T13:20:53Z
-title: "[K8s] How to install ubuntu server in VMWare"
-slug: "how-to-install-ubuntu-server-in-vmware"
+title: "[K8s] How to install ubuntu server in VMWare Part 1"
+slug: "how-to-install-ubuntu-server-in-vmware-part-1"
 featured: true
 draft: false
 tags:
@@ -47,7 +47,9 @@ After successfully installing Ubuntu, you need to configure the network with Net
 
 1. Open the Netplan configuration file:
 
-`sudo nano /etc/netplan/01-netcfg.yaml`
+```
+sudo nano /etc/netplan/01-netcfg.yaml
+```
 
 2. Add the following configuration to the file (adjust the IP address to match your network):
 
